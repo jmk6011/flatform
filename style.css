@@ -1,0 +1,382 @@
+@media  screen and (min-width: 100px) and (max-width: 799px){
+
+
+body {
+	font-family: unset;
+	margin: 0 auto;
+}
+.title {
+	text-align: center;
+	padding-left: 0;
+	margin-top: 30px;
+}
+.title li {
+	list-style: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* header.php */ 
+.navy {
+	position: relative;
+	width: 100%; height: 55px;
+	margin: 0;
+	padding-left: 0;
+	border-bottom: 1px solid #bbbbbb;
+}
+.navy img {
+	margin: 20px 0 0 10px;
+	width: 30px; height: 20px;
+}
+
+.hm {
+	display: none;
+	width: 100%; height: 150px;
+	position: absolute;
+	left: 0; top: 55px;
+	text-align: center;
+	background-color: white;
+	border-collapse: collapse;
+}
+.hm a {
+	text-decoration: none;
+	color: #595353;
+	font-size: 12px;
+	font-weight: bold;
+}
+.hm td {
+	width: 250px; height: 70px;
+	border: 1px solid #bbbbbb;
+	
+}
+.hm td:hover {
+	background-color: #87b2f2;
+}
+
+.navy .img1:hover .hm{
+	display: inline-block;
+}
+
+
+
+
+
+
+/*index.php*/
+.indexbd {
+	background-color: #fff072;
+}
+.main-title{
+	width: 300px;
+	margin: 100px auto;
+	margin-bottom: 20px;
+}
+.main-title p{
+	font-size: 14px;
+	font-weight: bold;
+}
+.survey {
+	width: 275px; height: 40px;
+	background-color: #fff072;
+	border: 2px solid red;
+	font-weight: bold;
+	font-size: 18px;
+}
+/*survey*/
+.survey-title{
+	width: 300px;
+	margin: 100px auto;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.survey-title input {
+	width: 80%; height: 40px;
+	margin: 5px 0;
+}
+.survey-title textarea {
+	width: 234px; height: 40px;
+	margin: 5px 0;
+}
+
+
+/* menu.php */
+.me {
+	height: 700px;
+}
+
+.menubar {
+	border-collapse : collapse;
+	width: 100%; height: 25px;
+	text-align: center;
+	padding-left: 0;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 30px auto;
+	
+}
+.menubar td {
+	border: 1px solid #dddddd;
+	width: 50%;
+}
+.menubar a {
+	text-decoration: none;
+	color: #595353;
+	font-size: 15px;
+}
+.menulist {
+	padding-left: 0;
+	width: 300px; height: 40px;
+	margin: 5px auto;
+	text-align: center;
+
+}
+.menulist li {
+	list-style: none;
+	margin: 15px auto;
+}
+.menulist .menu-fs {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	border-bottom: 2px double black;
+	width: 200px;
+}
+.menulist img {
+	width: 300px; height: 200px;
+	border: 1px solid #bbbbbb;
+}
+.menulist .menu-se,a {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 10px auto;
+	color: #999999;
+	text-decoration: none;
+
+}
+.fexid {
+	width: 100%; height: 35px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	position: fixed;
+	bottom: 0; left: 0;
+	background-color: #595353;
+}
+.fexid a{
+	text-decoration: none;
+	color: white;
+	position: relative;
+	
+}
+
+/* detail-page(one~four)*/
+.detail {
+	height: 1500px;
+}
+.depg {
+	padding-left: 0;
+	text-align: center;
+}
+.depg img {
+	width: 350px; height: 250px;
+}
+.depg .depg1 {
+ 	font-weight: bold;
+ 	margin: 10px auto;
+}
+.depg .depg2 {
+	font-size: 13px;
+	color: #595353;
+}
+
+
+
+
+
+/*order.php*/
+
+
+.orderlist li {
+	list-style: none;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.user-order {
+	width:300px;
+	margin: 5px auto;
+}
+.user-order input {
+	width: 300px; height: 40px;
+	border:1px solid #ccc5c5;
+	border-radius: 2px;
+	margin: 5px 0;
+}
+.user-order p {
+	font-size:10px;
+	text-align: center;
+	margin-top: 0;
+}
+.delivery-order {
+	width: 300px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+
+
+/*orderlist.php*/
+
+.orderlist {
+	width: 100%; 
+	margin: 0 auto;
+	padding: 10px;
+	
+}
+.orderlist input {
+	border: 0;
+	border-bottom: 1px solid #bbbbbb;
+	font-size: 20px;
+	color: #b26c6c;
+
+	
+}
+.orderlist td {
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	color: #aaaaaa;
+
+}
+.orderlist .point {
+	width: 80px;
+}
+.orderlist .orin {
+	width: 100%; height: 100%;
+	background-color: #595353;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer.php */
+.nave2 {
+	border: 1px solid #dddddd;
+	height: 13px;
+	padding: 10px;
+	font-size: 13px;
+	list-style: none;
+	position: relative;
+	top: 410px;
+}
+
+
+/* bord.php */
+
+.bbox {
+	padding: 20px 0 20px 10px;
+	border-bottom: 1px solid #dddddd;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+.bbox li,a {
+	list-style: none;
+	font-size: 16px;
+	color: #595353;
+}
+
+.bbox div {
+	display: none;
+	margin-top: 40px;
+}
+
+.bbox li:hover div {
+	display: inline-block;
+	color: #595353;
+}
+
+
+
+} /* @media -end- */
+
+@media  screen and (min-width: 800px) and (max-width: 10000px){
+
+body {
+	text-align: center;
+}
+
+.navy {
+	border-bottom: 1px solid #bbbbbb;
+	width: 100%; height: 50px;
+	text-align: right;
+	padding-left: 0;
+	font-size: 14px;
+	background: #1e5799;
+	background: -moz-linear-gradient(top, #1e5799 0%, #206acc 0%, #7db9e8 100%, #2989d8 100%);
+	background: -webkit-linear-gradient(top, #1e5799 0%,#206acc 0%,#7db9e8 100%,#2989d8 100%);
+	background: linear-gradient(to bottom, #1e5799 0%,#206acc 0%,#7db9e8 100%,#2989d8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#2989d8',GradientType=0 );
+}
+.navy img {
+	display: none;
+}
+.navy li , a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+}
+
+
+/*order.php*/
+
+
+.user-order input , .delivery-order select {
+	width: 300px; height: 40px;
+	margin: 5px auto;
+	display: inline-block;
+}
+
+.delivery-order .menulist {
+	width: 150px;
+}
+
+input {
+	width: 305px; height: 40px;
+	margin: 10px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+} /*media query 종료*/
+
+
+
+
+
+
+
+
+
+
+
+
